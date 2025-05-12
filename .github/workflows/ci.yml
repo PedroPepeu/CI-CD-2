@@ -21,7 +21,7 @@ jobs:
         run: npm test
 
       - name: Notify on Sucess
-        if: sucess()
+        if: success()
         run: |
           curl -H "Content-Type: application/json" \
             -d '{"content":"✅ CI Passed on main branch!"}' \
