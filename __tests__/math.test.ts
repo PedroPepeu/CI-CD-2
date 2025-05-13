@@ -9,11 +9,11 @@ describe('Math test', () => {
         expect(sub(2, 1)).toEqual(1);
     });
 
-    test('Divide 2 by 1 equals to 1', () => {
-        expect(div(2, 1)).toEqual(1);
+    test('Divide 2 by 1 equals to 2', () => {
+        expect(div(2, 1)).toEqual(2);
     });
 
     test('Multiply 2 by 2 equals to 4', () => {
-        expect(mul(2, 2)).toEqual(1);
+        expect(mul(2, 2)).toEqual(4);
     });
 })
