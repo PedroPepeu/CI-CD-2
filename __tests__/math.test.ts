@@ -1,4 +1,4 @@
-import { add } from "../src/math";
+import { add, sub } from "../src/math";
 
 describe('Math test', () => {
     test('add 1 to 2 equals to 3', () => {
